@@ -10,7 +10,7 @@ before_install:
 scripts:
   - docker run aloksinghk/docker-react npm run test -- --coverage
 deploy:
-  provider: elastickbeantalk
+  provider: elastickbeantalk 
   region: "ap-south-1"
   app: "docker-react"
   env: "DockerReact-env"
